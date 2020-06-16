@@ -1,0 +1,247 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.tupla::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+@media only screen and (min-width: 651px) {
+    /* For desktop: */
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 650px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .titulo1{
+        font-size:150%;
+    }
+    .elelista1{
+    
+        float:center;
+        width:100%;
+    }
+
+    .elelista1 .taglist1{
+        color:black;
+        display:block;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+     
+  }
+
+  .elelista1 .unique1{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+ 
+   }
+   table{
+       width:40%;
+   }
+
+   .table-container{
+    width: 40%;
+    margin: 0 ;
+
+    }
+
+
+}
+
+  .centrar{
+      text-align:center;
+  }
+
+
+
+.titulo1{
+   
+    background:#CE0A0A;
+    color:white;
+    text-align:center;
+    margin:0px;
+    padding:20px;
+}
+
+.lista1{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    background-color: #f3bbae;
+    
+}
+
+.elelista1{
+    
+   float:left;
+}
+
+ .taglist1{
+    color:black;
+    display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+.elelista1 .taglist1{
+    background-color: #fdcfc5;
+}
+
+li a:hover{
+    background-color:cornsilk;
+}
+
+.elelista2 .tagsublist1{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size: 70%;
+    
+}
+.unique1{
+    background-color: #F69A86;
+    color:black;
+    display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+nav li ul{
+    display:none;
+}
+
+nav li:hover > ul{
+    display:block;
+}
+
+
+#titulo2{
+    margin:20px 50px;
+    background-color:#CE0A0A;
+    color:white;
+}
+
+table{
+    background-color: white;
+    text-align:left;
+    width:60%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border:0px;
+    padding:10px 50px;
+}
+thead{
+    background-color:#CE0A0A;
+    color:white;
+    border-bottom:solid 5px #612323;
+}
+
+tr:nth-child(even){
+    background-color: #ddd
+}
+
+tr:hover td{
+    background-color:#dd5252;
+    color:white;
+}
+
+#titulo3, #titulo4{
+    margin:20px 50px;
+    background-color:#CE0A0A;
+    color:white;
+    text-align:center;
+}
+ p{
+     margin:50px 80px;
+     text-align:justify;
+ }
+
+ #flag, #volleyball{
+     background-color:#CE0A0A;
+     color:#db6f6f;
+ }
+
+ #running, #gate{
+    color:#CE0A0A;
+    background-color:#db6f6f;
+}
+
+.imgpets {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.centrado{
+    margin:10px auto;
+    display:block;
+    width:40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+ .peteffect:hover{
+    border: 1px solid #777;
+ }
+ .desaparece{
+     display:none;
+ }
+
+ .table-container{
+    width: 80%;
+    margin: 100px 240px auto;
+
+}
+
